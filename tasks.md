@@ -22,3 +22,13 @@ console.log('MAILING ' + mail);
 register('hany', sendWelcomeMail);
 
 ```
+3. Function as a return type (JS)
+   
+```js
+function multiplyBy(x) {
+   //Return function
+   return function(y) {
+   return x * y;
+   };
+   }
+```
